@@ -19,7 +19,7 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.158), 0 6px 6px rgba(0, 0, 0, 0.445);
     border: 1px solid #ccc;
     }
-
+    
 #tribute-info{
     border: 1px solid #ccc;
     font-size: 22px;
@@ -41,6 +41,10 @@
     width: 350px;
     }
 
+    #image:hover{
+       transform: scale(1.07);
+    }
+
 #img-div{
     border: 1px solid #ccc;
     padding: 50px;
@@ -50,6 +54,7 @@
     text-align: center;
     font-family: cursive;
     color:rgba(9, 43, 43, 0.884);
+    padding-bottom: 50px;
     }
 
     body{
@@ -66,8 +71,10 @@
     <h1 id="title">Nicola Tesla</h1>
     <!-- div que contiene la imagen con su respectivo id -->
     <div id="img-div">
-        <img id="image" alt="Nikola Tesla" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/220px-Tesla_circa_1890.jpeg">    
-        <p id="image-caption">Nikola Tesla a los 34 años de edad<br>"el hombre que transformo la energia"<br><br><br></p> 
+        <a href="#tribute-info">
+        <img id="image"  alt="Nikola Tesla" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/220px-Tesla_circa_1890.jpeg">
+        </a>    
+        <p id="image-caption">Da clic sobre la imagen<br><br></p> 
     </div>
 
     <!-- div que contiene el contenido con su respectivo id -->
