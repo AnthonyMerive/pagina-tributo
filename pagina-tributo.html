@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<body>
+
 <style>
 /*importa Fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
@@ -10,7 +10,7 @@
 #title{ 
     position:static;
     color:rgb(8, 70, 70);
-    margin:auto 30rem auto 30rem;
+    margin:auto;
     font-size: 34px;
     font-family: 'Otomanopee One', sans-serif;
     text-align: center;
@@ -47,38 +47,49 @@
 
 #img-div{
     border: 1px solid #ccc;
-    padding: 50px;
-    margin:0;
+    padding:15px;
+    margin:auto;
     }
 
 #image-caption{ 
     text-align: center;
-    font-family: cursive;
+    font-family: sans-serif;
     color:rgba(9, 43, 43, 0.884);
-    padding-bottom: 50px;
-    margin: 15px 0 5px 0;
+    padding: auto;
+    margin:10px auto;
     }
-s
+
+#div-Date{ 
+    position:static;
+    color:rgb(8, 70, 70);
+    margin:0 auto 150px auto;
+    font-size: 34px;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    background-color: rgba(14, 201, 235, 0.336);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.158), 0 6px 6px rgba(0, 0, 0, 0.445);
+    border: 1px solid #ccc;
+    }
+
 ul{
-    max-width: 550px;
-    margin: 0 auto 0 auto;
-    text-align: left;
-    line-height: 1.6;
+    margin: auto;
+    line-height: 1.5;
     }   
 
 li{
-    margin: 16px 0;
+    margin:auto;
+    color:rgb(50, 61, 61);
     }
 
-    body{
-        background-color: rgb(179, 215, 221);
+body{
+    background-color: rgb(179, 215, 221);
     }
 
 #div-biography{ 
     position:static;
-    margin: auto 800px 20px auto;
+    margin:auto;
     color:rgba(9, 210, 245, 0.89);
-    font-size: 34px;
+    font-size: 30px;
     font-family: 'Otomanopee One', sans-serif;
     text-align: center;
     background-color: rgba(3, 40, 46, 0.521);
@@ -92,20 +103,21 @@ li{
 <title>Tributo a Nicola Tesla</title>
 
 <!-- cuerpo de la pagina -->
-
+<body>
     <h1 id="title">Nicola Tesla</h1>
     <!-- div que contiene la imagen con su respectivo id -->
     <div id="img-div">
-        <a href="#tribute-info">
+        <a href="#div-biography">
         <img id="image"  alt="Nikola Tesla" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/220px-Tesla_circa_1890.jpeg">
         </a>    
-        <p id="image-caption">Da clic sobre la imagen<br><br></p> 
+        <p id="image-caption"><strong>Da clic sobre la imagen para leer la Biografia</strong></p> 
     </div>
-
+    <div id="div-Date">1856-1943</div>
     <div id="div-biography">Biografia</div>
     <!-- div que contiene el contenido con su respectivo id -->
     <div id="tribute-info">
-        <p>Nikola Tesla (Imperio austríaco, actual Croacia; 10 de julio de 1856-Nueva York, 7 de enero de 1943) fue un inventor, 
+        <p>
+            Nikola Tesla (Imperio austríaco, actual Croacia; 10 de julio de 1856-Nueva York, 7 de enero de 1943) fue un inventor, 
             ingeniero eléctrico y mecánico serbio nacionalizado estadounidense. Se le conoce sobre todo por sus numerosas invenciones en el campo del electromagnetismo,
             desarrolladas a finales del siglo XIX y principios del siglo XX. Las patentes de Tesla y su trabajo teórico ayudaron a forjar las bases de los sistemas modernos 
             para el uso de la energía eléctrica por corriente alterna (CA), lo que incluye el sistema polifásico de distribución eléctrica y el motor de corriente alterna, 
@@ -113,9 +125,9 @@ li{
             <br>
             La unidad de inducción electromagnética en el Sistema Internacional de Unidades fue nombrada tesla en su honor.<br><br>
             Su carácter, su enfrentamiento con Edison y el halo de misterio que rodea a algunos de sus descubrimientos hicieron que Tesla se convirtiera en un científico muy 
-            popular a partir de la década de 1990, con una abundante bibliografía disponible acerca de su vida y de su obra</p><br>
-        <p>Inventos:</p>
+            popular a partir de la década de 1990, con una abundante bibliografía disponible acerca de su vida y de su obra</p>
             <ul>
+                <Strong>Inventos:</Strong>
                 <li>Corriente Alterna</li>
                 <li>Bobina de Tesla</li>
                 <li>Oscilador Tesla</li>
