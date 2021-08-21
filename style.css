@@ -1,0 +1,106 @@
+/*importa Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
+/*aplicando CSS a cada ID*/
+
+#title{ 
+    position:static;
+    color:rgb(8, 70, 70);
+    margin:auto;
+    font-size: 34px;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    background-color: rgba(14, 201, 235, 0.336);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.158), 0 6px 6px rgba(0, 0, 0, 0.445);
+    border: 1px solid #ccc;
+    }
+    
+#tribute-info{
+    border: 1px solid #ccc;
+    font-size: 22px;
+    font-family: 'Zen Loop', sans-serif;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgba(14, 201, 235, 0.336);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.158), 0 6px 6px rgba(0, 0, 0, 0.445); 
+    }
+
+#image{
+    max-width: 100%;
+    border-color: rgb(8, 70, 70);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    position:relative;
+    margin:0 auto;
+    height: auto;
+	display:block;
+    }
+
+    #image:hover{
+       transform: scale(1.07);
+    }
+
+#img-div{
+    border: 1px solid #ccc;
+    padding:15px;
+    margin:auto;
+    }
+
+#image-caption{ 
+    text-align: center;
+    font-family: sans-serif;
+    color:rgba(9, 43, 43, 0.884);
+    padding: auto;
+    margin:10px auto;
+    }
+
+#div-Date{ 
+    position:static;
+    color:rgb(8, 70, 70);
+    margin:0 auto 150px auto;
+    font-size: 34px;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    background-color: rgba(14, 201, 235, 0.336);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.158), 0 6px 6px rgba(0, 0, 0, 0.445);
+    border: 1px solid #ccc;
+    }
+
+ul{
+    margin: auto;
+    line-height: 1.5;
+    }   
+
+li{
+    margin:auto;
+    color:rgb(50, 61, 61);
+    }
+
+body{
+    background-color: rgb(179, 215, 221);
+    }
+
+#div-biography{ 
+    position:static;
+    margin:auto auto 10px auto;
+    color:rgba(9, 210, 245, 0.89);
+    font-size: 30px;
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    background-color: rgba(3, 40, 46, 0.521);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.158), 0 6px 6px rgba(0, 0, 0, 0.445);
+    border: 1px solid #ccc;
+    }
+
+@media(min-width:800px){
+
+    #title{ 
+       margin:60px 200px 0;
+        }
+
+    #div-date{ 
+        margin:0 200px 150px;
+        }
+}
